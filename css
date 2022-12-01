@@ -1,0 +1,81 @@
+body
+{
+    background: #282828;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+table
+{
+    border-collapse: collapse;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px #03e9f4,
+                0 0 6px #03e9f4,
+                0 0 9px #03e9f4,
+                0 0 12px #03e9f4;
+    color: white;
+}
+table td
+{
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+.oylar
+{
+    text-align: center;
+}
+.keyingi
+{
+    color: black;
+}
+.bugun
+{
+    color: #03e9f4;
+    box-shadow: 0 0 2px #03e9f4,
+                0 0 4px #03e9f4,
+                0 0 6px #03e9f4,
+                0 0 8px #03e9f4;
+}
+table tr:nth-child(1) td
+{
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 10px;
+}
+table tr:nth-child(1) td,table tr:nth-child(2) td
+{
+    color: #03e9f4;
+    font-weight: 900;
+}
+
+.buttons
+{
+    margin: 20px;
+}
+.buttons button
+{
+    margin: 10px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(9, 31, 226);
+    background: #282828;
+    box-shadow: 0 0 3px #03e9f4,
+                0 0 6px #03e9f4,
+                0 0 9px #03e9f4,
+                0 0 12px #03e9f4;
+}
